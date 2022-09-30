@@ -1,53 +1,98 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+body {
+  background: #ebebeb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .wrapper {
-    max-width: 1200px;
-    width: 100%;
-    padding: 35px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 35px;
+  margin: 0 auto;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation__list {
-    display: flex;
-    column-gap: 20px;
+  display: flex;
+  column-gap: 20px;
 }
 
-/* nunito-sans-regular - latin */
-@font-face {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* nunito-sans-700italic - latin */
-  @font-face {
-    font-family: 'Nunito Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/nunito-sans-v12-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/nunito-sans-v12-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* nunito-sans-900 - latin */
-  @font-face {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 900;
-    src: local(''),
-         url('../fonts/nunito-sans-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/nunito-sans-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+.navigation__link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+.dowloand-button {
+  background: #423f3e;
+  border-radius: 5px;
+  padding: 11px 15px;
+  box-shadow: none;
+  border: 1px solid #423f3e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.intro {
+  padding-top: 343px;
+}
+
+.intro__title {
+  max-width: 960px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  color: #2b2b2b;
+  margin-bottom: 31px;
+}
+
+.intro__subtitle {
+  max-width: 960px;
+  color: #2b2b2b;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 2385px;
+}
+
+/* Nulla styles */
+
+.nulla__wrap {
+  max-width: 1649px;
+  background: #ebebeb;
+  margin: 0 auto;
+}
+
+.nulla__title {
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 120%;
+  padding: 1125px 719px 1649px 120px;
+}
+
+.nulla__cards {
+  height: 100vh;
+}
+
+/* Nulla styles and */
