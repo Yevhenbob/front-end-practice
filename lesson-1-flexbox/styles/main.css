@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&display=swap');
+
 html {
   box-sizing: border-box;
   font-family: "Nunito Sans";
@@ -101,9 +103,6 @@ body {
   justify-content: center;
 }
 
-.Nulla-ut-ea {
-}
-
 .Nulla-row {
   display: flex;
   justify-content: space-between;
@@ -143,9 +142,6 @@ body {
   line-height: 42px;
   color: #2b2b2b;
   padding-bottom: 16px;
-}
-
-.where-teams {
 }
 
 .nulla-column {
@@ -196,9 +192,6 @@ body {
   border-radius: 5px;
 }
 
-.aliqua-aliqua-ut {
-}
-
 .aliqua-h1 {
   padding-top: 81px;
 }
@@ -209,9 +202,6 @@ body {
   line-height: 120%;
   text-align: center;
   color: #2b2b2b;
-}
-
-.section-last {
 }
 
 .colums-centr {
@@ -234,7 +224,6 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #2b2b2b;
-  
 }
 
 .last2 {
@@ -288,33 +277,21 @@ body {
   color: #2b2b2b;
 }
 
-.footer {
-
-}
-
 .img5 {
-display: flex;
-flex-direction: row;
-padding-top: 97px;
-}
-
-.display {
-
+  display: flex;
+  flex-direction: row;
+  padding-top: 97px;
 }
 
 .right-main {
   padding-left: 996px;
 }
 
-.right-text {
-
-}
-
 .right-text1 {
   font-weight: 700;
-font-size: 14px;
-line-height: 150%;
-color: #2B2B2B;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2b2b2b;
 }
 
 .oll-img {
@@ -327,11 +304,11 @@ color: #2B2B2B;
 
 .last-text0 {
   left: 87.43%;
-right: -2.62%;
-top: 64.62%;
-bottom: 3.08%;
+  right: -2.62%;
+  top: 64.62%;
+  bottom: 3.08%;
   font-weight: 600;
-font-size: 14px;
-line-height: 150%;
-color: #2B2B2B;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2b2b2b;
 }
